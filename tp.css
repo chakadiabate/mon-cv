@@ -46,7 +46,7 @@ body{
 }
 progress{
     width: 70px;/* Pour la largeur */
-    height: 15px;/*pour lui donner un longueur*/
+    height: 15px;/*pour lui donner un
 }
 .contact, .reseau, .langues, .loisirs{
     margin-top: 30px;/*Pour faire une marge externe */
@@ -129,5 +129,7 @@ h1{
     .droite{
         text-align: left;
     }
-    
+    .image{
+        margin-left: 55px;
+    }
 }
