@@ -1,0 +1,142 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background: lightblue;
+    display: flex;/*pour mettre la page au milieu*/
+    justify-content: center ;/*pour centrer le contenu*/
+    align-items: center;/*pour rien*/
+    min-height: 100vh;/*pour la longueur minimale*/
+
+}
+.page{
+    position: relative;
+    width: 100%;
+    max-width: 595px;
+    min-height: 856px;
+    background: #fff;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 35% 65%;
+    box-shadow: 0 35px 55px rgb(0, 0, 0, 0.1);
+}
+.page .gauche{
+    position: relative;
+    background: #417694;
+    padding: 10px;
+    color: #fff;
+}
+.page .droite{
+    position: relative;
+    background: #fff;
+    
+}
+.gauche h2{
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+}
+.image{/*pour la mise en forme de l'image*/
+    width: 143px;
+    height: 119px;
+    position: relative;
+    margin-left: 14px;
+}
+.contact p{
+    font-size: 14px;
+    margin-left: 10px;
+}
+.reseau p{
+    font-size: 14px;
+    margin-left: 10px;
+}
+.langues, .loisirs{
+    border-top: 1px solid #fff;
+}
+progress{
+    width: 70px;
+}
+.contact, .reseau, .langues, .loisirs{
+    margin-top: 30px;
+
+}
+.langues li{
+    margin-left: 20px;
+}
+.loisirs li{
+    margin-left: 20px;
+}
+.contact P{
+    margin-top: 10px;
+}
+.reseau P{
+    margin-top: 10px;
+}
+.langues p{
+    margin-top: 10px;
+}
+.loisirs p{
+    margin-top: 10px;
+}
+h1{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.droite h2, h3{
+    color: #417694;
+    margin-left: 10px;
+}
+.h3{
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.parcours{
+    margin-left: 9px;
+    margin-top: 12px;
+}
+.experiences, .formation, .competence{
+    margin-top: 40px;
+}
+.experiences ul{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.experiences li{
+    margin-top: 15px;
+    margin-left: 30px;
+}
+.formation ul{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.formation li{
+    margin-top: 15px;
+    margin-left: 30px;
+}
+.competence ul{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.competence li{
+    margin-top: 15px;
+    margin-left: 30px;
+}
+@media/*pour la conponsivité*/  (max-width:600px){
+
+    .page {
+
+        grid-template-columns:repeat(1,1fr)
+        
+    }
+   /* .contact, .reseau, .langues, .loisirs{
+        text-align: center;
+    }*/
+    .droite{
+        text-align: left;
+    }
+    
+}
