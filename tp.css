@@ -130,6 +130,50 @@ h1{
         text-align: left;
     }
     .image{
-        margin-left: 55px;
+        margin-left: 5px;
+    }
+}
+@media screen and (max-width: 390px){
+    .page{
+        width: 100%;/*pour la largeur total de ma page*/
+        width: 390px;/*Pour la largeur max*/
+        height: 300px;/*pour la longueur min*/
+        margin: 50px;
+        display: grid;/*pour diviser ma page*/
+        grid-template-columns: 35% 65%;/*pour le partage de la page*/
+    }
+    .contact, .reseau, .langues, .loisirs{
+        font-size: 15px;
+        margin-top: 20px;
+    }
+    .contact p{
+        font-size: 10px;
+        margin-left: 0px;
+    }
+    .reseau p{
+        font-size: 10px;
+        margin-left: 0px;
+    }
+    .langues li{
+        font-size: 10px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    .parcours{
+        font-size: 16px;
+        margin-top: 9px;
+    }
+    h2{
+        font-size: 15px;
+    }
+    .experiences, .formation, .competence{
+        margin-top: 10px;
+    }
+    .experiences li{
+        margin-left: 10px;
+    }
+    .competence li{
+        margin-left: 10px;
     }
 }
