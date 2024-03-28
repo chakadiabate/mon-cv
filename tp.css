@@ -1,12 +1,5 @@
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
-}
 body{
-    background: lightblue;
+    background: #fff;/*pour la couleur de fond*/
     display: flex;/*pour mettre la page au milieu*/
     justify-content: center ;/*pour centrer le contenu*/
     align-items: center;/*pour rien*/
@@ -14,116 +7,114 @@ body{
 
 }
 .page{
-    position: relative;
-    width: 100%;
-    max-width: 595px;
-    min-height: 856px;
-    background: #fff;
+    width: 100%;/*pour la largeur total de ma page*/
+    max-width: 595px;/*Pour la largeur max*/
+    min-height: 856px;/*pour la longueur min*/
     margin: 50px;
-    display: grid;
-    grid-template-columns: 35% 65%;
-    box-shadow: 0 35px 55px rgb(0, 0, 0, 0.1);
+    display: grid;/*pour diviser ma page*/
+    grid-template-columns: 35% 65%;/*pour le partage de la page*/
 }
 .page .gauche{
-    position: relative;
-    background: #417694;
-    padding: 10px;
-    color: #fff;
+    background: #417694;/*pour la couleur de fond de ma div gauche*/
+    padding: 10px;/* pour la marge interne*/
+    color: #fff;/*pour changer la couleur de police */
 }
 .page .droite{
-    position: relative;
-    background: #fff;
+    background: #fff;/*pour la couleur de fond de ma div droite*/
     
 }
 .gauche h2{
-    font-weight: bold;
-    text-align: center;
-    color: #fff;
+    font-weight: bold;/*pour mettre en gras les mes titres h2*/
+    text-align: center;/*pour centrer mes h2*/
+    color: #fff;/* pour la couleur du texte*/
 }
 .image{/*pour la mise en forme de l'image*/
-    width: 143px;
-    height: 119px;
-    position: relative;
-    margin-left: 14px;
+    width: 143px;/*Pour la largeur de mon div image*/
+    height: 119px;/*pour la longueur de mon div image*/
+    margin-left: 14px;/* pour la marge exterieure*/
 }
 .contact p{
-    font-size: 14px;
-    margin-left: 10px;
+    font-size: 14px;/*pour la taille du texte*/
+    margin-left: 10px;/* pour la marge exterieure*/
 }
 .reseau p{
-    font-size: 14px;
-    margin-left: 10px;
+    font-size: 14px;/*pour la taille du texte*/
+    margin-left: 10px;/* pour la marge exterieure*/
 }
 .langues, .loisirs{
-    border-top: 1px solid #fff;
+    border-top: 1px solid #fff;/*pour faire une bordure en haut*/
 }
 progress{
-    width: 70px;
+    width: 70px;/* Pour la largeur */
+    height: 15px;/*pour lui donner un longueur*/
 }
 .contact, .reseau, .langues, .loisirs{
-    margin-top: 30px;
+    margin-top: 30px;/*Pour faire une marge externe */
 
 }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
 .langues li{
-    margin-left: 20px;
+    margin-left: 20px;/*pour une marge à gauche*/
+    margin-top: 10px;/*une marge externe en haut*/
 }
 .loisirs li{
-    margin-left: 20px;
+    margin-left: 20px;/*pour une marge à gauche*/
+    margin-top: 10px;/*une marge externe en haut*/
 }
 .contact P{
-    margin-top: 10px;
+    margin-top: 10px;/*une marge externe en haut*/
 }
 .reseau P{
-    margin-top: 10px;
-}
-.langues p{
-    margin-top: 10px;
-}
-.loisirs p{
-    margin-top: 10px;
+    margin-top: 10px;/*une marge externe en haut*/
 }
 h1{
-    margin-top: 10px;
-    margin-left: 20px;
+    margin-top: 10px;/*une marge externe en haut*/
+    margin-left: 20px;/*pour une marge à gauche*/
 }
 .droite h2, h3{
-    color: #417694;
-    margin-left: 10px;
+    color: #417694;/*pour la couleur du texte h2 h3*/
+    margin-left: 10px;/*pour une marge à gauche*/
 }
 .h3{
-    margin-left: 10px;
-    margin-top: 15px;
+    margin-left: 10px;/*pour une marge à gauche*/
+    margin-top: 15px;/*une marge externe en haut*/
 }
 .parcours{
-    margin-left: 9px;
-    margin-top: 12px;
+    margin-left: 9px;/*pour une marge à gauche*/
+    margin-top: 12px;/*une marge externe en haut*/
 }
 .experiences, .formation, .competence{
-    margin-top: 40px;
+    margin-top: 40px;/*une marge externe en haut*/
 }
 .experiences ul{
-    margin-top: 15px;
-    margin-left: 20px;
+    margin-top: 15px;/*une marge externe en haut*/
+    margin-left: 20px;/*pour une marge à gauche*/
 }
 .experiences li{
-    margin-top: 15px;
-    margin-left: 30px;
+    margin-top: 15px;/*une marge externe en haut*/
+    margin-left: 30px;/*pour une marge à gauche*/
 }
 .formation ul{
-    margin-top: 15px;
-    margin-left: 20px;
+    margin-top: 15px;/*une marge externe en haut*/
+    margin-left: 20px;/*pour une marge à gauche*/
 }
 .formation li{
-    margin-top: 15px;
-    margin-left: 30px;
+    margin-top: 15px;/*une marge externe en haut*/
+    margin-left: 30px;/*pour une marge à gauche*/
 }
 .competence ul{
-    margin-top: 15px;
-    margin-left: 20px;
+    margin-top: 15px;/*une marge externe en haut*/
+    margin-left: 20px;/*pour une marge à gauche*/
 }
 .competence li{
-    margin-top: 15px;
-    margin-left: 30px;
+    margin-top: 15px;/*une marge externe en haut*/
+    margin-left: 30px;/*pour une marge à gauche*/
 }
 @media/*pour la conponsivité*/  (max-width:600px){
 
