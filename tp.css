@@ -6,6 +6,9 @@ body{
     min-height: 100vh;/*pour la longueur minimale*/
 
 }
+:root{
+    --couleur_dominate1 : #417694;
+}
 .page{
     width: 100%;/*pour la largeur total de ma page*/
     max-width: 595px;/*Pour la largeur max*/
@@ -15,7 +18,7 @@ body{
     grid-template-columns: 35% 65%;/*pour le partage de la page*/
 }
 .page .gauche{
-    background: #417694;/*pour la couleur de fond de ma div gauche*/
+    background:var(--couleur_dominate1);/*pour la couleur de fond de ma div gauche*/
     padding: 10px;/* pour la marge interne*/
     color: #fff;/*pour changer la couleur de police */
 }
@@ -78,7 +81,7 @@ h1{
     margin-left: 20px;/*pour une marge à gauche*/
 }
 .droite h2, h3{
-    color: #417694;/*pour la couleur du texte h2 h3*/
+    color:var(--couleur_dominate1);/*pour la couleur du texte h2 h3*/
     margin-left: 10px;/*pour une marge à gauche*/
 }
 .h3{
