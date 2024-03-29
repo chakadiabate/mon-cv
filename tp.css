@@ -31,10 +31,21 @@ body{
     text-align: center;/*pour centrer mes h2*/
     color: #fff;/* pour la couleur du texte*/
 }
-.image{/*pour la mise en forme de l'image*/
-    width: 143px;/*Pour la largeur de mon div image*/
-    height: 119px;/*pour la longueur de mon div image*/
-    margin-left: 14px;/* pour la marge exterieure*/
+.image{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    Overflow: hidden;
+    margin-left: 20px;
+}
+.image img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 .contact p{
     font-size: 14px;/*pour la taille du texte*/
@@ -132,9 +143,7 @@ h1{
     .droite{
         text-align: left;
     }
-    .image{
-        margin-left: 5px;
-    }
+
 }
 @media screen and (max-width: 390px){
     .page{
@@ -178,5 +187,22 @@ h1{
     }
     .competence li{
         margin-left: 10px;
+    }
+    .image{
+        position: relative;
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        Overflow: hidden;
+        margin-right: 100px;
+        
+    }
+    .image img{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
 }
